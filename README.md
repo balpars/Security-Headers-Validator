@@ -1,7 +1,7 @@
 # http-header-analyzer
 Analyze http headers to identify potential vulnerabilities.
 
-## TO - DO
+## To - Do
 
 - [ ] Choose libraries
 - [ ] Header listesini oluştur
