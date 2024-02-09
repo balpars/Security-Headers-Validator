@@ -4,3 +4,4 @@ Analyze http headers to identify potential vulnerabilities.
 ## TO - DO
 
 - [ ] Choose libraries
+- [ ] Header listesini oluştur
