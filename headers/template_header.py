@@ -1,12 +1,12 @@
 def get_info():
     return info_dict
 
-vuln_str = "Bu header'ın bu şekilde kullanımı şu zafiyeti doğurur"
+vuln_str = "Bu header'in bu sekilde kullanimi bu zafiyete sebep olur, su sekilde ayarlanmalidir"
 
 # var olmaması lazımsa (eski bir header gibi) best practice'e None diyelim
 # priority'yi şimdilik kafama göre yazdım :)
 info_dict = {
-    'tite':'sample_header',
+    'title':'Sample-Header',
     'best-practice': [None], 
     'priority': 1,
     'description': vuln_str
