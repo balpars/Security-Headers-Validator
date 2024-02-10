@@ -3,9 +3,13 @@
 By following steps below you can add new headers and/or integrate your custom header seamlessly.
 
 1 - Navigate to headers folder and create the <header_name>.py file eg. user_agent.py
+
 2 - Copy the contents of template_header.py into your header file.
+
 3 - Modify your header file as needed.
+
 4 - Find the list variable "header_files" in the header_compiler.py
+
 5 - Append the file name to header_files eg.   
     ```
     header_files = ["x_content_type_options.py", "user_agent.py"]
