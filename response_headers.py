@@ -1,12 +1,12 @@
 import requests
 
-def response_header(url):
+def get_header(url):
     response = requests.get(url)
     headers = response.headers
     return headers
 
 def main():
-    headers = response_header()
+    headers = get_header()
     print(headers)
 
 if __name__ == "__main__":
