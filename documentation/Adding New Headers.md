@@ -38,6 +38,7 @@ Aşağıdaki adımları izleyerek yeni header ekleyebilir veya kendi özel heade
 4 - Proje klasöründeki header_compiler.py dosyasında header_files listesini bulun.
 
 5 - Dosya adını header_files listesine ekleyin. Örnek:
+
     ```
     header_files = ["x_content_type_options.py", "user_agent.py"]
     ```
