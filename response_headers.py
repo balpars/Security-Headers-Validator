@@ -1,7 +1,6 @@
 import requests
 
-def response_header():
-    url=input()
+def response_header(url):
     response = requests.get(url)
     headers = response.headers
     return headers
