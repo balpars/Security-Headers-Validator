@@ -3,4 +3,4 @@ Analyze http headers to identify potential vulnerabilities. Add your custom head
 
 ### Documentation
 
-Documentation can be found on [docs folder](docs/).
+Documentation can be found on [here](docs/).
