@@ -9,5 +9,6 @@ info_dict = {
     'title':'Sample-Header',
     'best-practice': [None], 
     'priority': 1,
-    'description': vuln_str
+    'description': vuln_str,
+    'obsolote': 1 # var ama aslında kaldırılması gerekli
 }

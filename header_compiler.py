@@ -8,6 +8,10 @@ HEADER_DIR = os.path.join(os.getcwd(), "headers")
 
 def load_headers():
     headers = {}
+
+    counter = 0
+
+
     for file_name in header_files:
         header_name = file_name.split(".")[0]
         module_name = f"{header_name}"
@@ -18,16 +22,20 @@ def load_headers():
         spec.loader.exec_module(module)
         
         header_info = module.get_info()
-        header_title = header_info['title']
-        headers[header_title] = header_info
+        key = f"key{counter}"
+        headers[key] = header_info
+        counter += 1
 
     return headers
 
 
 def main():
     headers = load_headers()
-    print(headers)
+    
+    for i in range(len(headers)):
+        print(headers[f"key{i}"]['description'])
 
+    
 
 if __name__ == "__main__":
     main()

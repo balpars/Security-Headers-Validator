@@ -8,5 +8,6 @@ info_dict = {
     'title':'X-XSS-Protection',
     'best-practice': [0, None],
     'priority': 2,
-    'description': vuln_str
+    'description': vuln_str,
+    'obsolote': 1 # var ama aslında kaldırılması gerekli
 }

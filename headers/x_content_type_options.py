@@ -8,5 +8,6 @@ info_dict = {
     'title':'X-Content-Type-Options',
     'best-practice': ['nosniff'],
     'priority': 1,
-    'description': vuln_str
+    'description': vuln_str,
+    'obsolote': 1 # var ama aslında kaldırılması gerekli
 }
