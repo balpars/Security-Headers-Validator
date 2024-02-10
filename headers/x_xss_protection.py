@@ -7,6 +7,6 @@ vuln_str = "Bu header'ın bu şekilde kullanımı şu zafiyeti doğurur"
 info_dict = {
     'tite':'X-XSS-Protection',
     'best-practice': [0, None],
-    'priority': 2 
+    'priority': 2,
     'description': vuln_str
 }
