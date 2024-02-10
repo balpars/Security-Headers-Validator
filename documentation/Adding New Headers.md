@@ -15,7 +15,7 @@ By following steps below you can add new headers and/or integrate your custom he
     header_files = ["x_content_type_options.py", "user_agent.py"]
     ```
 
-### Warnings
+#### Warnings
 Header file names should not contain dashes. Instead use underscore. This is to prevent import errors.
 
 Correct: user_agent.py
@@ -42,7 +42,7 @@ Aşağıdaki adımları izleyerek yeni header ekleyebilir veya kendi özel heade
     ```
     header_files = ["x_content_type_options.py", "user_agent.py"]
     ```
-Uyarılar
+#### Uyarılar
 Başlık dosya adları kısa çizgi içermemelidir. Bunun yerine alt tire kullanın. Bu, import hatalarını önlemek içindir.
 
 Doğru: user_agent.py
