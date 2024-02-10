@@ -1,8 +1,6 @@
 import importlib.util
 import os
 
-#
-
 # yeni header'lar buraya
 header_files = ["x_content_type_options.py", "x_xss_protection.py"]
 
@@ -26,13 +24,9 @@ def load_headers():
     return headers
 
 
-
-
 def main():
     headers = load_headers()
     print(headers)
-
-
 
 
 if __name__ == "__main__":
