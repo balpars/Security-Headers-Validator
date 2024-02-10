@@ -43,7 +43,7 @@ Aşağıdaki adımları izleyerek yeni header ekleyebilir veya kendi özel heade
     header_files = ["x_content_type_options.py", "user_agent.py"]
     ```
 #### Uyarılar
-Başlık dosya adları kısa çizgi içermemelidir. Bunun yerine alt tire kullanın. Bu, import hatalarını önlemek içindir.
+Dosya adları kısa çizgi içermemelidir. Bunun yerine alt tire kullanın. Bu, import hatalarını önlemek içindir.
 
 Doğru: user_agent.py
 Yanlış: user-agent.py
