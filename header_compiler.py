@@ -9,9 +9,6 @@ HEADER_DIR = os.path.join(os.getcwd(), "headers")
 def load_headers():
     headers = {}
 
-    counter = 0
-
-
     for file_name in header_files:
         header_name = file_name.split(".")[0]
         module_name = f"{header_name}"
