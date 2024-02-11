@@ -30,7 +30,6 @@ def load_headers():
 
 def main():
     headers = load_headers()
-
     print(headers)
     
 

@@ -1,7 +1,17 @@
 from data_class import Data
 
 def compare(local_header_dict, response_header_dict):
-    
+    local_header_key = list(local_header_dict.keys())
+    response_header_key = list(response_header_dict.keys())
+    print(response_header_key)
+    different_keys = []
+
+    ilk_set = set(local_header_key)
+    ikinci_set = set(response_header_key)
+
+    fark_listesi = list(ilk_set - ikinci_set)
+    print("Birinci listede olan ancak ikinci listede olmayanlar:", fark_listesi)
+
     veri_listesi = []
 
     # local'de olup da response'ta olmayan key'leri fark sözlüğüne eklemek
