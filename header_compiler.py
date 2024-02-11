@@ -18,18 +18,11 @@ def load_headers():
         module = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(module)
         
-<<<<<<< HEAD
-        header_info = module.get_info()
-        key = f"key{counter}"
-        headers[key] = header_info
-        counter += 1
-=======
         #header_info = module.get_info() # sözlüğün tamamı burada geldi
         header_info = {key.lower():value.lower() for key,value in module.get_info().items()}
         header_title = header_info['title']
         headers[header_title] = header_info
 
->>>>>>> f7b43d1c411f81cef933bf496fb06820f4b1c07c
     return headers
 
 
