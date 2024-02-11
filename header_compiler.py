@@ -18,7 +18,8 @@ def load_headers():
         module = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(module)
         
-        header_info = module.get_info()
+        #header_info = module.get_info() # sözlüğün tamamı burada geldi
+        header_info = {key.lower():value.lower() for key,value in module.get_info().items()}
         header_title = header_info['title']
         headers[header_title] = header_info
 
@@ -27,7 +28,6 @@ def load_headers():
 
 def main():
     headers = load_headers()
-
     print(headers)
     
 
