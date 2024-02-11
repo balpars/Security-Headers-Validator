@@ -4,14 +4,22 @@ def compare(local_header_dict, response_header_dict):
     
     veri_listesi = []
 
-    # local'de olup da response'ta olmayan elemanları fark sözlüğüne ekle
-    # örnek
-    fark = {'key0':{
+    # local'de olup da response'ta olmayan key'leri fark sözlüğüne eklemek
+    
+    # örnek bir fark sözlüğü
+    fark = {'key1':{
                     'title':'X-Content-Type-Options',
                     'best_practice': ['nosniff'],
                     'priority': 1,
                     'description': "vuln_str",
-                    'obsolete': 1 # var ama aslında kaldırılması gerekli
+                    'obsolete': 1
+                    },
+            'key12':{
+                    'title':'User-Agent',
+                    'best_practice': ['idk :)'],
+                    'priority': 2,
+                    'description': "vuln_str",
+                    'obsolete': 1
                     }
             }
     
@@ -26,4 +34,6 @@ def compare(local_header_dict, response_header_dict):
 
         veri_listesi.append(Data(title=title, best_practice=best_practice , priority=priority, description=description, is_obsolete=is_obsolete))
     
+    # Veri listesini get_priority'den faydalanarak sıralamak
+
     return veri_listesi

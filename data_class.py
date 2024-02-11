@@ -23,4 +23,4 @@ class Data:
 
     # nesnenin string gösterimi
     def __str__(self):
-        return f"Priority:{self.priority} {self.title} : {self.description}\nBest practice:{self.best_practice}"
+        return f"Priority:{self.priority} {self.title} : {self.description}\nBest practice:{self.best_practice}\n"
