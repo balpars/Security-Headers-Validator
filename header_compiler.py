@@ -9,9 +9,6 @@ HEADER_DIR = os.path.join(os.getcwd(), "headers")
 def load_headers():
     headers = {}
 
-    counter = 0
-
-
     for file_name in header_files:
         header_name = file_name.split(".")[0]
         module_name = f"{header_name}"
@@ -21,19 +18,24 @@ def load_headers():
         module = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(module)
         
+<<<<<<< HEAD
         header_info = module.get_info()
         key = f"key{counter}"
         headers[key] = header_info
         counter += 1
+=======
+        #header_info = module.get_info() # sözlüğün tamamı burada geldi
+        header_info = {key.lower():value.lower() for key,value in module.get_info().items()}
+        header_title = header_info['title']
+        headers[header_title] = header_info
+
+>>>>>>> f7b43d1c411f81cef933bf496fb06820f4b1c07c
     return headers
 
 
 def main():
     headers = load_headers()
-    
-    for i in range(len(headers)):
-        print(headers[f"key{i}"]['description'])
-
+    print(headers)
     
 
 if __name__ == "__main__":
