@@ -7,14 +7,14 @@ def compare(local_header_dict, response_header_dict):
     # local'de olup da response'ta olmayan key'leri fark sözlüğüne eklemek
     
     # örnek bir fark sözlüğü
-    fark = {'key1':{
+    fark = {'X-Content-Type-Options':{
                     'title':'X-Content-Type-Options',
                     'best_practice': ['nosniff'],
                     'priority': 1,
                     'description': "vuln_str",
                     'obsolete': 1
                     },
-            'key12':{
+            'User-Agent':{
                     'title':'User-Agent',
                     'best_practice': ['idk :)'],
                     'priority': 2,

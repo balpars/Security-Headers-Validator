@@ -22,19 +22,16 @@ def load_headers():
         spec.loader.exec_module(module)
         
         header_info = module.get_info()
-        key = f"key{counter}"
-        headers[key] = header_info
-        counter += 1
+        header_title = header_info['title']
+        headers[header_title] = header_info
 
     return headers
 
 
 def main():
     headers = load_headers()
-    
-    for i in range(len(headers)):
-        print(headers[f"key{i}"]['description'])
 
+    print(headers)
     
 
 if __name__ == "__main__":
