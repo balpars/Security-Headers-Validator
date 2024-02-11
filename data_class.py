@@ -21,5 +21,6 @@ class Data:
     def get_is_obsolete (self):
         return self.is_obsolete
 
+    # nesnenin string gösterimi
     def __str__(self):
         return f"Priority:{self.priority} {self.title} : {self.description}\nBest practice:{self.best_practice}"
