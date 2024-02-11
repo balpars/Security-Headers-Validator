@@ -25,7 +25,6 @@ def load_headers():
         key = f"key{counter}"
         headers[key] = header_info
         counter += 1
-
     return headers
 
 
