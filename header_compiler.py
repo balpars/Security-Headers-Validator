@@ -1,10 +1,11 @@
 import importlib.util
 import os
 
-# yeni header'lar buraya
+# add new headers to this list
 header_files = ["x_content_type_options.py", "x_xss_protection.py"]
 
 HEADER_DIR = os.path.join(os.getcwd(), "headers")
+
 
 def load_headers():
     headers = {}
@@ -17,9 +18,9 @@ def load_headers():
         spec = importlib.util.spec_from_file_location(module_name, file_path)
         module = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(module)
-        
-        #header_info = module.get_info() # sözlüğün tamamı burada geldi
-        header_info = {key.lower():value.lower() for key,value in module.get_info().items()}
+
+        # Add the header dictionary to headers dictionary
+        header_info = {key.lower(): value.lower() for key, value in module.get_info().items()}
         header_title = header_info['title']
         headers[header_title] = header_info
 
@@ -29,7 +30,7 @@ def load_headers():
 def main():
     headers = load_headers()
     print(headers)
-    
+
 
 if __name__ == "__main__":
     main()
