@@ -1,13 +1,14 @@
 def get_info():
     return info_dict
 
-vuln_str = "Bu header'in bu sekilde kullanimi bu zafiyete sebep olur, su sekilde ayarlanmalidir"
-best_practice_str = "1"
+
+desc_str = "Warning: The X-XSS-Protection header has been deprecated by modern browsers and its use can introduce additional security issues on the client side. use Content-Security-Policy instead."
+best_practice_str = "0"
 
 info_dict = {
-    'title':'X-XSS-Protection',
+    'title': 'X-XSS-Protection',
     'best-practice': best_practice_str,
-    'priority': "2",
-    'description': vuln_str,
-    'obsolete': "1"
+    'priority': "1",
+    'description': desc_str,
+    'deprecated': "1"
 }

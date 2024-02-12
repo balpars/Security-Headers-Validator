@@ -1,13 +1,14 @@
 def get_info():
     return info_dict
 
-vuln_str = "Bu header'in bu sekilde kullanimi bu zafiyete sebep olur, su sekilde ayarlanmalidir"
-best_practice_str = "1"
+
+desc_str = "Setting this header will prevent the browser from interpreting files as a different MIME type to what is specified in the Content-Type HTTP header (e.g. treating text/plain as text/css)."
+best_practice_str = "nosniff"
 
 info_dict = {
-    'title':'X-Content-Type-Options',
+    'title': 'X-Content-Type-Options',
     'best-practice': best_practice_str,
     'priority': "1",
-    'description': vuln_str,
-    'obsolete': "1"
+    'description': desc_str,
+    'deprecated': "0"
 }
