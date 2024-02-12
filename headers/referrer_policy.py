@@ -2,7 +2,8 @@ def get_info():
     return info_dict
 
 
-desc_str = "The Referrer-Policy HTTP header governs which referrer information, sent in the Referer header, should be included with requests made."
+desc_str = ("The Referrer-Policy HTTP header governs which referrer information, sent in the Referer header, "
+            "should be included with requests made.")
 best_practice_str = "no-referrer"
 
 info_dict = {

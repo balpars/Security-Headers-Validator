@@ -5,9 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f774592-53f2-4b10-b56c-1734314667fc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/http-header-analyzer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/http-header-analyzer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/cache_control.py" beforeDir="false" afterPath="$PROJECT_DIR$/headers/cache_control.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/clear_site_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/headers/clear_site_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/content_security_policy.py" beforeDir="false" afterPath="$PROJECT_DIR$/headers/content_security_policy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/cross_origin_embedder_policy.py" beforeDir="false" afterPath="$PROJECT_DIR$/headers/cross_origin_embedder_policy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/cross_origin_opener_policy.py" beforeDir="false" afterPath="$PROJECT_DIR$/headers/cross_origin_opener_policy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/cross_origin_resource_policy.py" beforeDir="false" afterPath="$PROJECT_DIR$/headers/cross_origin_resource_policy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/expect_ct.py" beforeDir="false" afterPath="$PROJECT_DIR$/headers/expect_ct.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/feature_policy.py" beforeDir="false" afterPath="$PROJECT_DIR$/headers/feature_policy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/permissions_policy.py" beforeDir="false" afterPath="$PROJECT_DIR$/headers/permissions_policy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/pragma.py" beforeDir="false" afterPath="$PROJECT_DIR$/headers/pragma.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/public-key-pins.py" beforeDir="false" afterPath="$PROJECT_DIR$/headers/public-key-pins.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/referrer_policy.py" beforeDir="false" afterPath="$PROJECT_DIR$/headers/referrer_policy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/strict_transport_security.py" beforeDir="false" afterPath="$PROJECT_DIR$/headers/strict_transport_security.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/template_header.py" beforeDir="false" afterPath="$PROJECT_DIR$/headers/template_header.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/x_xss_protection.py" beforeDir="false" afterPath="$PROJECT_DIR$/headers/x_xss_protection.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +33,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 7
+}]]></component>
   <component name="ProjectId" id="2cDSpKVtAbCo0jn6ks6LhUQATlP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -30,6 +47,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/YASIN/PycharmProjects",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
@@ -37,6 +55,7 @@
   <component name="RunManager" selected="Python.youtube">
     <configuration name="header_comparator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="http-header-analyzer" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -57,6 +76,7 @@
       <method v="2" />
     </configuration>
     <configuration name="header_compiler" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -79,6 +99,7 @@
     </configuration>
     <configuration name="response_headers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="http-header-analyzer" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -100,6 +121,7 @@
     </configuration>
     <configuration name="scanner" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="http-header-analyzer" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -121,6 +143,7 @@
     </configuration>
     <configuration name="youtube" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="http-header-analyzer" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -149,6 +172,13 @@
         <item itemvalue="Python.header_comparator" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-5a2391486177-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13763.11" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
