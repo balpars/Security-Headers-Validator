@@ -14,6 +14,10 @@ By following steps below you can add new headers and/or integrate your custom he
     ```
     header_files = ["x_content_type_options.py", "user_agent.py"]
     ```
+6 - Run the test_headers.py to ensure that your header file works correctly. 
+    ```
+    pytest test_headers.py
+    ```
 
 #### Warnings
 Header file names should not contain dashes. Instead use underscore. This is to prevent import errors.
@@ -41,6 +45,10 @@ Aşağıdaki adımları izleyerek yeni header ekleyebilir veya kendi özel heade
 
     ```
     header_files = ["x_content_type_options.py", "user_agent.py"]
+    ```
+6 - Header dosyalarınızın doğru çalıştığına emin olmak için tests klasöründeki test_headers.py dosyasını çalıştırın.
+    ```
+    pytest test_headers.py
     ```
 #### Uyarılar
 Dosya adları kısa çizgi içermemelidir. Bunun yerine alt tire kullanın. Bu, import hatalarını önlemek içindir.
