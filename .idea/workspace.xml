@@ -4,23 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f774592-53f2-4b10-b56c-1734314667fc" name="Changes" comment="">
+    <list default="true" id="6c43dd09-feb0-4542-86aa-d84e666ef0f4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/cache_control.py" beforeDir="false" afterPath="$PROJECT_DIR$/headers/cache_control.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/clear_site_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/headers/clear_site_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/content_security_policy.py" beforeDir="false" afterPath="$PROJECT_DIR$/headers/content_security_policy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/cross_origin_embedder_policy.py" beforeDir="false" afterPath="$PROJECT_DIR$/headers/cross_origin_embedder_policy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/cross_origin_opener_policy.py" beforeDir="false" afterPath="$PROJECT_DIR$/headers/cross_origin_opener_policy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/cross_origin_resource_policy.py" beforeDir="false" afterPath="$PROJECT_DIR$/headers/cross_origin_resource_policy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/expect_ct.py" beforeDir="false" afterPath="$PROJECT_DIR$/headers/expect_ct.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/feature_policy.py" beforeDir="false" afterPath="$PROJECT_DIR$/headers/feature_policy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/permissions_policy.py" beforeDir="false" afterPath="$PROJECT_DIR$/headers/permissions_policy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/pragma.py" beforeDir="false" afterPath="$PROJECT_DIR$/headers/pragma.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/public-key-pins.py" beforeDir="false" afterPath="$PROJECT_DIR$/headers/public-key-pins.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/referrer_policy.py" beforeDir="false" afterPath="$PROJECT_DIR$/headers/referrer_policy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/strict_transport_security.py" beforeDir="false" afterPath="$PROJECT_DIR$/headers/strict_transport_security.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/template_header.py" beforeDir="false" afterPath="$PROJECT_DIR$/headers/template_header.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/x_xss_protection.py" beforeDir="false" afterPath="$PROJECT_DIR$/headers/x_xss_protection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header_comparator.py" beforeDir="false" afterPath="$PROJECT_DIR$/header_comparator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_writer.py" beforeDir="false" afterPath="$PROJECT_DIR$/report_writer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,10 +22,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 7
+  "associatedIndex": 8
 }]]></component>
-  <component name="ProjectId" id="2cDSpKVtAbCo0jn6ks6LhUQATlP" />
+  <component name="ProjectId" id="2cHfcnZDuptB6Q0mSVYA6GO4lqL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -47,132 +34,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/YASIN/PycharmProjects",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "git-widget-placeholder": "test__main"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.youtube">
-    <configuration name="header_comparator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="http-header-analyzer" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/header_comparator.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="header_compiler" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/header_compiler.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="response_headers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="http-header-analyzer" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/response_headers.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="scanner" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="http-header-analyzer" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scanner.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="youtube" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="http-header-analyzer" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/PycharmProjects/pythonProject" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/PycharmProjects/pythonProject/youtube.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.youtube" />
-        <item itemvalue="Python.response_headers" />
-        <item itemvalue="Python.scanner" />
-        <item itemvalue="Python.header_compiler" />
-        <item itemvalue="Python.header_comparator" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -183,23 +47,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4f774592-53f2-4b10-b56c-1734314667fc" name="Changes" comment="" />
-      <created>1707644839200</created>
+      <changelist id="6c43dd09-feb0-4542-86aa-d84e666ef0f4" name="Changes" comment="" />
+      <created>1707773507327</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1707644839200</updated>
+      <updated>1707773507327</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>

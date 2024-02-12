@@ -20,7 +20,7 @@ def compare(local_header_dict, response_header_dict):
         best_practice = data['best-practice']
         priority = data['priority']
         description = data['description']
-        is_obsolete = data['obsolete']
+        is_obsolete = data['deprecated']
 
         data_list.append(Data(title=title, best_practice=best_practice, priority=priority, description=description,
                               is_obsolete=is_obsolete))
