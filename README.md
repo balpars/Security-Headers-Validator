@@ -22,7 +22,7 @@ Security Header Validator is written to be modular and hackable, you can easily 
 Security Header Validator supports **Python 3**. Just clone the repository and and all is set. Install the requests library if needed.
 
 ```
-$ git clone 
+$ git clone https://github.com/balpars/Security-Headers-Validator.git
 $ cd security-header-validator
 $ pip3 install -r requirements.txt
 ```
