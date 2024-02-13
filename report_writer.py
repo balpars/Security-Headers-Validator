@@ -1,24 +1,3 @@
-def red(string):
-    """
-    Takes string and returns the string in red.
-    """
-    return "\033[91m" + string + "\033[0m"
-
-
-def green(string):
-    """
-    Takes string and returns the string in green.
-    """
-    return "\033[92m" + string + "\033[0m"
-
-
-def yellow(string):
-    """
-    Takes a string and returns the string  in yellow.
-    """
-    return "\033[93m" + string + "\033[0m"
-
-
 def write_report(data_list, desc_str, color):
     """
     Takes a list of data objects and prints them with specified color
@@ -45,6 +24,7 @@ def write_report(data_list, desc_str, color):
         print()
     print("-" * 50)
 
+
 def write_report_short(data_list, desc_str, color):
     """
     Takes a list of data objects and prints their title with specified color
@@ -69,3 +49,15 @@ def write_report_short(data_list, desc_str, color):
     for data in data_list:
         print(color_function(data.get_title()))
     print("-" * 50)
+
+
+def green(string):
+    return "\033[92m" + string + "\033[0m"
+
+
+def red(string):
+    return "\033[91m" + string + "\033[0m"
+
+
+def yellow(string):
+    return "\033[93m" + string + "\033[0m"
