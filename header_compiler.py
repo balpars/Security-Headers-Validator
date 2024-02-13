@@ -2,7 +2,26 @@ import importlib.util
 import os
 
 # add new headers to this list
-header_files = ["x_content_type_options.py", "x_xss_protection.py"]
+header_files = [
+    "cache_control.py",
+    "clear_site_data.py",
+    "content_security_policy.py",
+    "cross_origin_embedder_policy.py",
+    "cross_origin_opener_policy.py",
+    "cross_origin_resource_policy.py",
+    "expect_ct.py",
+    "feature_policy.py",
+    "permissions_policy.py",
+    "pragma.py",
+    "public_key_pins.py",
+    "referrer_policy.py",
+    "strict_transport_security.py",
+    "x_content_type_options.py",
+    "x_frame_options.py",
+    "x_permitted_cross-domain_policies.py",
+    "x_xss_protection.py"
+]
+
 
 HEADER_DIR = os.path.join(os.getcwd(), "headers")
 

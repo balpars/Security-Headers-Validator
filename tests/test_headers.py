@@ -4,8 +4,26 @@ import os
 import pytest
 
 HEADER_DIR = os.path.join(os.path.dirname(os.getcwd()), "headers")
-header_files = ["x_content_type_options.py", "x_xss_protection.py"]
-
+header_files = [
+    "cache_control.py",
+    "clear_site_data.py",
+    "content_security_policy.py",
+    "cross_origin_embedder_policy.py",
+    "cross_origin_opener_policy.py",
+    "cross_origin_resource_policy.py",
+    "expect_ct.py",
+    "feature_policy.py",
+    "permissions_policy.py",
+    "pragma.py",
+    "public_key_pins.py",
+    "referrer_policy.py",
+    "strict_transport_security.py",
+    "template_header.py",
+    "x_content_type_options.py",
+    "x_frame_options.py",
+    "x_permitted_cross-domain_policies.py",
+    "x_xss_protection.py"
+]
 
 @pytest.mark.parametrize("header_file", header_files)
 def test_header_file_exists(header_file):
@@ -28,7 +46,7 @@ def test_get_info_returns_dictionary(header_file):
 @pytest.mark.parametrize("header_file", header_files)
 def test_get_info_keys_exist(header_file):
     info_dict = load_header_get_info(header_file)
-    required_keys = ['title', 'best-practice', 'priority', 'description', 'obsolete']
+    required_keys = ['title', 'best-practice', 'priority', 'description', 'deprecated']
     assert all(
         key in info_dict for key in required_keys), f"Some required keys are missing in '{info_dict['__module__']}'"
 
