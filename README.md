@@ -1,4 +1,4 @@
-<img src="" width=650px>
+
 
 ## About Security Header Validator
 
@@ -13,9 +13,9 @@ Security Header Validator detects:
 
 Security Header Validator is written to be modular and hackable, you can easily add your headers.
 
-## Screenshots
+## Security Header Validator in Action
 
-
+<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/89816332/304434905-3738fa09-045a-4f68-bc52-ad5c9301d92d.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240213%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240213T140321Z&X-Amz-Expires=300&X-Amz-Signature=b7989db5491c453d1dd359ac2c293b968ad51461b1a8f6579c016d449a2700b3&X-Amz-SignedHeaders=host&actor_id=159152213&key_id=0&repo_id=753684265" width=800px>
 
 ## Installation
 
