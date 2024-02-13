@@ -83,12 +83,12 @@ Incorrect: user-agent.py
 
 Navigate to projects directory and run the command below to test if your
 headers work.
+
 `pytest tests/test_headers.py`
 
 ## To Do
 
 - [ ] List argument to scan a url list.
-- [ ] Max request argument to limit requests per second.
 - [ ] Detect information disclosures in headers
 - [ ] Detect misconfigurations of security headers.
 
