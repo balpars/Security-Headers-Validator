@@ -96,7 +96,7 @@ headers work.
 
 - This project will be regularly updated and continued to be improved.
 
-- If you'd like to get in touch with us for any suggestions regarding the project, you can visit our GitHub page or send us an email.
+- If you'd like to get in touch with us for any suggestions regarding the project, feel free to open an issue or send a pull request.
 
 - We thank you!
 
