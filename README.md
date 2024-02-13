@@ -38,13 +38,13 @@ $ pip3 install -r requirements.txt
 
 Short Form    | Long Form | Description
 ------------- |-----------|-------------
--t            | --target  | target url eg. https://exapmle_site.com
+-t            | --target  | target url eg. https://example_site.com
 -h            | --help    | show the help message and exit
 
 
 * Specify target with -t variable. Provide the full url as below.
 
-`python scanner.py -t https://exapmle_site.com`
+`python scanner.py -t https://example_site.com`
 
 ## How do I add a new header?
 
