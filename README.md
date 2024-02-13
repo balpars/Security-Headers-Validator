@@ -4,14 +4,13 @@
 
 Security Headers Validator is a Python tool designed to detect missing security headers and use of deprecated headers, based on the OWASP Secure Headers Project. 
 It provides a simple way to identify potential security risks associated with the headers sent by web servers.
-You can easily add your custom headers and it's best practices to test your servers with our tool.
 
 Security Header Validator detects:
  - Missing security headers
  - Use of deprecated security headers
  - Use of recommended security headers
 
-Security Header Validator is written to be modular and hackable, you can easily add your headers.
+Security Header Validator is written to be modular and hackable, you can easily add your custom headers and it's best practices.
 
 ## Security Header Validator in Action
 
