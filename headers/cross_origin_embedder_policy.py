@@ -2,7 +2,7 @@ def get_info():
     return info_dict
 
 
-desc_str = ("This response header prevents a document from loading any cross-origin resources that don\'t explicitly "
+desc_str = ("This response header prevents a document from loading any cross-origin resources that don\'t explicitly\n"
             "grant the document permission.")
 best_practice_str = "require-corp"
 

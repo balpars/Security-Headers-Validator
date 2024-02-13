@@ -2,7 +2,7 @@ def get_info():
     return info_dict
 
 
-desc_str = ("A cross-domain policy file is an XML document that grants a web client, such as Adobe Flash Player or "
+desc_str = ("A cross-domain policy file is an XML document that grants a web client, such as Adobe Flash Player or\n"
             "Adobe Acrobat (though not necessarily limited to these), permission to handle data across domains")
 best_practice_str = "none"
 

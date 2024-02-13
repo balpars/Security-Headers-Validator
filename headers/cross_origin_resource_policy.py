@@ -2,7 +2,7 @@ def get_info():
     return info_dict
 
 
-desc_str = ("The HTTP Cross-Origin-Resource-Policy response header conveys a desire that the browser blocks no-cors "
+desc_str = ("The HTTP Cross-Origin-Resource-Policy response header conveys a desire that the browser blocks no-cors\n"
             "cross-origin/cross-site requests to the given resource")
 best_practice_str = "same-origin"
 

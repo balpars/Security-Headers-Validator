@@ -2,7 +2,7 @@ def get_info():
     return info_dict
 
 
-desc_str = ("This header has been deprecated by all major browsers and is no longer recommended. Avoid using it, "
+desc_str = ("This header has been deprecated by all major browsers and is no longer recommended. Avoid using it,\n"
             "and update existing code if possible")
 best_practice_str = "none"
 

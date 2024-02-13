@@ -3,8 +3,7 @@ def get_info():
 
 
 desc_str = "CSP prevents a wide range of attacks, including cross-site scripting and other cross-site injections."
-best_practice_str = ("default-src 'self'; form-action 'self'; object-src 'none'; frame-ancestors 'none'; "
-                     "upgrade-insecure-requests; block-all-mixed-content")
+best_practice_str = ("Set CSP as needed. for info https://owasp.org/www-project-secure-headers/#content-security-policy")
 
 info_dict = {
     'title': 'Content-Security-Policy',

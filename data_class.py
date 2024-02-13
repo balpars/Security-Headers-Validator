@@ -22,4 +22,4 @@ class Data:
         return self.is_obsolete
 
     def __str__(self):
-        return f" Header: {self.title}\n Description: {self.description}\n Best practice: {self.best_practice}"
+        return f"Header: {self.title}\nDescription: {self.description}\nBest practice: {self.best_practice}"

@@ -2,7 +2,7 @@ def get_info():
     return info_dict
 
 
-desc_str = ("Setting this header will prevent the browser from interpreting files as a different MIME type to what is "
+desc_str = ("Setting this header will prevent the browser from interpreting files as a different MIME type to what is\n"
             "specified in the Content-Type HTTP header (e.g. treating text/plain as text/css).")
 
 best_practice_str = "nosniff"

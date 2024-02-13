@@ -2,7 +2,7 @@ def get_info():
     return info_dict
 
 
-desc_str = ("The X-Frame-Options response header (also named XFO) improves the protection of web applications against "
+desc_str = ("The X-Frame-Options response header (also named XFO) improves the protection of web applications against\n"
             "clickjacking")
 best_practice_str = "deny"
 
