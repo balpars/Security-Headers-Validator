@@ -89,7 +89,7 @@ headers work.
 
 - [ ] List argument to scan a url list.
 - [ ] Detect information disclosures in headers
-- [ ] Detect misconfigurations of security headers.
+- [ ] Detect weak CSP configurations.
 
 ## Final remarks
 - This is the first time we publicly release a tool. Contributions are much appreciated!
