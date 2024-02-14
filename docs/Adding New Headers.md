@@ -1,6 +1,6 @@
 ## How do I add a new header?
 
-By following steps below you can add new headers and/or integrate your custom header seamlessly.
+By following steps below you can add and integrate your headers to Security Headers Validator.
 
 1 - Navigate to headers folder and create the <header_name>.py file eg. user_agent.py
 
@@ -10,14 +10,15 @@ By following steps below you can add new headers and/or integrate your custom he
 
 4 - Find the list variable "header_files" in the header_compiler.py
 
-5 - Append the file name to header_files eg.   
-    ```
-    header_files = ["x_content_type_options.py", "user_agent.py"]
-    ```
-6 - Run the test_headers.py to ensure that your header file works correctly. 
-    ```
-    pytest test_headers.py
-    ```
+5 - Append the file name to header_files eg.
+header_files = ["x_content_type_options.py", "user_agent.py"]
+
+Optinal: Test your headers. Append the file name to header_files in test_headers.py. Run the test_headers.py to ensure that your header file works correctly. pytest test_headers.py
+
+Warnings
+Header file names should not contain dashes. Instead use underscore. This is to prevent import errors.
+
+Correct: user_agent.py Incorrect: user-agent.py
 
 #### Warnings
 Header file names should not contain dashes. Instead use underscore. This is to prevent import errors.
