@@ -5,20 +5,20 @@
 Security Headers Validator is a Python tool designed to detect missing security headers and use of deprecated headers, based on the OWASP Secure Headers Project. 
 It provides a simple way to identify potential security risks associated with the headers sent by web servers.
 
-Security Header Validator detects:
+Security Headers Validator detects:
  - Missing security headers
  - Use of deprecated security headers
  - Use of recommended security headers
 
-Security Header Validator is written to be modular and hackable, you can easily add your custom headers and it's best practices.
+Security Headers Validator is written to be modular and hackable, you can easily add your custom headers and it's best practices.
 
-## Security Header Validator in Action
+## Security Headers Validator in Action
 
 <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/89816332/304434905-3738fa09-045a-4f68-bc52-ad5c9301d92d.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240213%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240213T140321Z&X-Amz-Expires=300&X-Amz-Signature=b7989db5491c453d1dd359ac2c293b968ad51461b1a8f6579c016d449a2700b3&X-Amz-SignedHeaders=host&actor_id=159152213&key_id=0&repo_id=753684265" width=800px>
 
 ## Installation
 
-Security Header Validator supports **Python 3**. Just clone the repository and and all is set. Install the requests library if needed.
+Security Headers Validator supports **Python 3**. Just clone the repository and and all is set. Install the requests library if needed.
 
 ```
 $ git clone https://github.com/balpars/Security-Headers-Validator.git
@@ -28,7 +28,7 @@ $ pip3 install -r requirements.txt
 
 ## Dependencies
 
-Security Header Validator depends on the `requests` Python module. 
+Security Headers Validator depends on the `requests` Python module. 
 This dependency can be installed using [pip](https://pypi.python.org/pypi/pip).
 ```
 $ pip3 install -r requirements.txt
@@ -48,7 +48,7 @@ Short Form    | Long Form | Description
 
 ## How do I add a new header?
 
-By following steps below you can add and integrate your headers to Security Header Validator.
+By following steps below you can add and integrate your headers to Security Headers Validator.
 
 1 - Navigate to headers folder and create the <header_name>.py file eg. user_agent.py
 
@@ -85,7 +85,7 @@ headers work.
 
 `pytest tests/test_headers.py`
 
-## To Do
+## Planned Future Improvements
 
 - [ ] List argument to scan a url list.
 - [ ] Detect information disclosures in headers
