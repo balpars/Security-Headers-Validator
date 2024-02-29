@@ -98,8 +98,6 @@ headers work.
 
 - If you'd like to get in touch with us for any suggestions regarding the project, feel free to open an issue or send a pull request.
 
-- We thank you!
-
 ## Contributors
 ```
 Yasin Çelik
