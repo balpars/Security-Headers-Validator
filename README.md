@@ -14,7 +14,7 @@ Security Headers Validator is written to be modular and hackable, you can easily
 
 ## Security Headers Validator in Action
 
-<img src="[https://private-user-images.githubusercontent.com/89816332/305702379-7567c2bc-75ff-4b2d-955d-57e3c848ea9f.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDkxODIxMjEsIm5iZiI6MTcwOTE4MTgyMSwicGF0aCI6Ii84OTgxNjMzMi8zMDU3MDIzNzktNzU2N2MyYmMtNzVmZi00YjJkLTk1NWQtNTdlM2M4NDhlYTlmLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMjklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjI5VDA0NDM0MVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTE3MjkzNjU4MDIxZmRkMjRhMTBhODkxMWRiNmRmNzE4MmZhYjg3MDY4MzQyM2ViYWM1ODFiYjJmYjEyMDQxYjkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.eTx-Q--5gErQ1Ot3v_3f7Cxxa4eY4WxD-0YxZ13LD1k](https://github.com/balpars/Security-Headers-Validator/assets/89816332/3d97d11a-7033-4fe6-b864-87a695d22d7a)" width=800px>
+<img src="[demo](https://github.com/balpars/Security-Headers-Validator/assets/89816332/3d97d11a-7033-4fe6-b864-87a695d22d7a)" width=800px>
 
 ## Installation
 
