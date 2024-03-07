@@ -14,7 +14,7 @@ Security Headers Validator is written to be modular and hackable, you can easily
 
 ## Security Headers Validator in Action
 
-<img src="[demo](https://github.com/balpars/Security-Headers-Validator/assets/89816332/3d97d11a-7033-4fe6-b864-87a695d22d7a)" width=800px>
+![demo.gif](https://github.com/balpars/Security-Headers-Validator/blob/main/demo.gif)
 
 ## Installation
 
